@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bb 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://eportfolio.utm.my/artefact/file/download.php?file=711660&view=178367&embedded=1&text=713724');
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+
+@media (max-width: 767px){
+.bb {
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+}
+
+.cal{
+    background-color: aliceblue;
+     height: 370px;
+    width: 250px; 
+    margin: 10% 30%;
+    padding: 25px;
+}
+
+
+
+input{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    margin: 4px;
+    font-weight: bolder;
+    transition-duration: 0.5s;
+}
+
+@media (max-width: 767px){
+    input{
+        margin: 0;
+        padding: 4px 6px ;
+     
+    }
+}
+
+.operator{
+    background-color: purple;
+}
+
+
+@media (max-width: 767px){
+    .operator{
+        
+        margin: 1%;
+        padding: 3px 8px;
+        margin-right: 2%;
+    }
+}
+
+.ac{
+    width: 112px;
+    margin-right: 5px;
+}
+
+.op{
+    height: 70px;
+    width: 240px;
+    background-color: transparent;
+    box-shadow: 0px 0px 7px grey;
+    color: black;
+    font-size: 30px;
+    text-align: right;
+}
+
+@media(max-width:767px){
+    .op{
+        margin: 1%;
+        padding: 0%;
+    }
+}
+
+#allclear
+{
+    background-color: red;
+}
+
+.operator:hover
+{
+    transform: scale(0.9);
+}
+
+input[type="button"]:hover
+{
+    transform: scale(0.9);
+    box-shadow: 0px 0px 8px rgb(205, 101, 162);
+}
